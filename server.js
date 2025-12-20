@@ -1,6 +1,6 @@
 const express = require("express");
 const dotenv = require("dotenv");
-
+const cors = require('cors');
 const hotelDataaddedToDBRouter = require("./routes/dataimport.router");
 
 const categoryDataaddedToDBRouter = require("./routes/categoryimport.router");
@@ -20,6 +20,7 @@ const connectDB = require("./config/dbconfig");
 dotenv.config();
 
 const app = express();
+app.use(cors());
 app.use(express.json());
 
 const PORT = process.env.PORT || 3500;
