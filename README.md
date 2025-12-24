@@ -41,38 +41,4 @@ Tech Stack Used:
 
   Nodemon – Development tool
 
-
-Project Structure:
-
-  travelo-booking-app-mern/
-│
-├── config/
-│   └── dbconfig.js           
-│
-├── controllers/              
-│   ├── auth.controller.js
-│   ├── hotel.controller.js
-│   ├── category.controller.js
-│   ├── singleHotel.controller.js
-│   └── wishlist.controller.js
-│
-├── middleware/
-│   └── verifyUser.js        
-│
-├── models/
-│   ├── hotel.model.js
-│   ├── category.model.js
-│   └── user.model.js
-│
-├── routes/ 
-│   ├── auth.router.js
-│   ├── hotel.router.js
-│   ├── singlehotel.router.js
-│   ├── category.router.js
-│   ├── wishlist.router.js
-│   ├── dataimport.router.js
-│   └── categoryimport.router.js
-│
-├── server.js                 
-├── package.json
-└── README.md
+ 
