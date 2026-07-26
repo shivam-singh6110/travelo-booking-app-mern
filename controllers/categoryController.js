@@ -1,3 +1,4 @@
+
 const category = require("../model/category.model");   //
 
 
@@ -11,3 +12,4 @@ const categoryHandler= async (req, res) => {
   }
 }
 module.exports = categoryHandler;
+

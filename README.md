@@ -1,1 +1,1 @@
-// Here all information about this app
+// Here all information about this apps
