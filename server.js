@@ -6,6 +6,7 @@ const hotelDataaddedToDBRouter = require("./routes/dataimport.router");
 const categoryDataaddedToDBRouter = require("./routes/categoryimport.router");
 
 
+
 const hotelRouter = require("./routes/hotel.router");
 
 const categoryRouter = require("./routes/category.router");
